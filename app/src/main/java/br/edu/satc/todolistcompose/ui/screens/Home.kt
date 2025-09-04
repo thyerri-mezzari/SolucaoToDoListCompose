@@ -44,7 +44,9 @@ fun PreviewHomeScreen() {
 @Composable
 fun HomeScreen() {
     Box(
-        modifier = Modifier.fillMaxSize().padding(top = 8.dp)
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(top = 8.dp)
     ) {
         // Conteúdo principal (lista de items)
         Content()
@@ -132,7 +134,7 @@ fun NewTask() {
                                 complete = false
                             )
                         )
-                        
+
                         // Limpa os campos
                         taskTitle = ""
                         taskDescription = ""
