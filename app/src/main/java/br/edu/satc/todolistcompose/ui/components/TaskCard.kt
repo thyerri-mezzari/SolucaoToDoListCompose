@@ -77,6 +77,7 @@ fun TaskCardPreview() {
     ToDoListComposeTheme {
         TaskCard(
             TaskData(
+                id = 1,
                 title = "Estudar Jetpack Compose",
                 description = "Estudar os principais componentes do Jetpack Compose",
                 complete = false
